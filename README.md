@@ -25,16 +25,14 @@ User query → Agent (LLM) → [decides to call retrieval tool] → Vector store
 ## Project Structure
 
 ```
-.
-├── rag_agent/
-│   ├── agent.py              # root_agent definition, tool registration
-│   ├── tools/
-│   │   └── retrieve.py       # FunctionTool: embeds query, searches vector store
-│   └── ingestion/
-│       └── ingest.py         # chunks + embeds + indexes source documents
-├── data/                      # source documents to be indexed
-├── requirements.txt
-└── README.md
+rag_agent/
+├── my_agent/
+│   ├── __init__.py
+│   └── agent.py
+└── .env
+|
+—- setup_corpus.py
+
 ```
 
 *(Update this tree to match your actual layout.)*
