@@ -38,8 +38,13 @@ my_agent/
 ## Prerequisites
 
 - Python 3.10+
-- `pip install google-adk` (plus whatever vector store / embedding client your implementation uses)
+- `pip install google-adk google-cloud-aiplatform` (plus whatever vector store / embedding client your implementation uses)
 - A Google API key (or Vertex AI credentials) for the underlying model
-- Cloud Storage and sample pdf 
+- Cloud Storage and sample pdf
+- API and Services —> Vector Search API —> enable it before 
+- export GOOGLE_CLOUD_PROJECT=your-project-id
+- export GOOGLE_CLOUD_LOCATION=us-central1
+- gcloud services enable aiplatform.googleapis.com storage.googleapis.com cloudresourcemanager.googleapis.com 
+
 
 
