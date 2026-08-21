@@ -44,6 +44,6 @@ User query → Agent (LLM) → [decides to call retrieval tool] → Vector store
 - Python 3.10+
 - `pip install google-adk` (plus whatever vector store / embedding client your implementation uses)
 - A Google API key (or Vertex AI credentials) for the underlying model
-- *(Add: vector DB service/credentials if using an external store, e.g. Chroma, Pinecone, Vertex AI Search)*
+- Cloud Storage and sample pdf 
 
 
