@@ -25,13 +25,11 @@ User query → Agent (LLM) → [decides to call retrieval tool] → Vector store
 ## Project Structure
 
 ```
-rag_agent/
-├── my_agent/
-│   ├── __init__.py
-│   └── agent.py
+my_agent/
+├── __init__.py
+└── agent.py
 └── .env
-|
-—- setup_corpus.py
+└──setup_corpus.py
 
 ```
 
