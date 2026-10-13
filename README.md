@@ -1,6 +1,6 @@
 # RAG with Google ADK
 
-The entire video can be found here --> https://github.com/ashutoshbhakare/ADK_RAG 
+The entire video can be found here --> https://www.youtube.com/watch?v=kqmSwHbEpDA&t=2s 
 
 
 Retrieval-Augmented Generation (RAG) implemented as a tool inside a Google Agent Development Kit (ADK) agent — the agent retrieves relevant context from a knowledge base before answering, instead of relying solely on the model's parametric knowledge.
